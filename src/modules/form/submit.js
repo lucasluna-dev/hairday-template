@@ -7,11 +7,9 @@ const inputToday = dayjs(new Date()).format("YYYY-MM-DD")
 
 // carrega a data atual
 selectedDate.min = inputToday
+selectedDate.value = inputToday
 
-// Define a data atual.
-selectedDate.min = inputToday
-
-form,onsubmit = (event)=>{
+form.onsubmit = (event)=>{
     event.preventDefault()
 
     console.log("enviadoddd")
