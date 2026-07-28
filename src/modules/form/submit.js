@@ -1,4 +1,5 @@
 import dayjs from "dayjs"
+import { SchedulerNew } from "../../services/schedule-new.js" 
 const form = document.querySelector("form")
 const clienteName = document.getElementById("client")
 const selectedDate = document.getElementById("date")

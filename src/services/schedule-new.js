@@ -1,6 +1,6 @@
 // area de novos agendamentos
 
-import { apiConfig } from "../../services/api-config.js";
+import { apiConfig } from "./api-config.js";
 
 export async function SchedulerNew({id, name, when}){
 
