@@ -1,5 +1,5 @@
 //Criando api config
 
 export const apiConfig = {
-    baseURL: "http://localhost:3333/api/v1",
+    baseURL: "http://localhost:3333",
 }

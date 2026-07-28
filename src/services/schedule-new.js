@@ -2,7 +2,7 @@
 
 import { apiConfig } from "./api-config.js";
 
-export async function SchedulerNew({id, name, when}){
+export async function schedulerNew({id, name, when}){
 
 
     try {
