@@ -6,12 +6,13 @@ export async function schedulerNew({id, name, when}){
 
 
     try {
+        // faz requisiçào para enviar dados ao agendamento
         await fetch(`${apiConfig.baseURL}/schedules`,{
             method: 'POST',
             headers:{
                 "Content-Type": "application/json",
             },
-            body: JSON.stringify({id,name,when}),//sealizando os dados
+            body: JSON.stringify({id,name,when}),//serializando os dados
         })
 
         alert("Agendamento realizado com sucesso")
